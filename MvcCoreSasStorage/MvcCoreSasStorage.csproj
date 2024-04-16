@@ -14,4 +14,8 @@
     <EmbeddedResource Include="Documents\alumnos_tables.xml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Azure.Data.Tables" Version="12.8.3" />
+  </ItemGroup>
+
 </Project>
