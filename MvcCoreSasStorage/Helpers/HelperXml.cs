@@ -9,7 +9,7 @@ namespace MvcCoreSasStorage.Helpers
         public HelperXml()
         {
             string assemblyPath =
-"MvcAzureCoreSaSTablesStorage.Documents.alumnos_tables.xml";
+"MvcCoreSasStorage.Documents.alumnos_tables.xml";
             Stream stream =
                 this.GetType().Assembly
                 .GetManifestResourceStream(assemblyPath);
